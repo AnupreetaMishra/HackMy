@@ -5,9 +5,9 @@
       $scope.showData = function( ){
 
 
-     $scope.names = []; 
+     $scope.sidebar = []; 
 	$http.get("../mockJson/mock.json").success(function(response){ 
-		$scope.names = response;  
+		$scope.sidebar = response;  
 	});
      
          
